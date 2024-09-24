@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Encuesta de satisfacción</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            font-family: Arial, sans-serif;
+            color: #021e3a;
+        }
+    </style> 
+
+
+</head>
+<body>
+    <h1>Encuesta de Satisfacción</h1>
+    <p>Por favor, evalúe los siguientes aspectos del servicio en una escala del 1 al 5:</p>
+    <form action="/submit-encuesta" method="POST">
+    
+        <label for="atencion_cliente">Atención al Cliente:</label>
+        <div class="rating-group" id="atencion_cliente">
+            <input type="radio" name="atencion_cliente" value="1" required> 1
+            <input type="radio" name="atencion_cliente" value="2"> 2
+            <input type="radio" name="atencion_cliente" value="3"> 3
+            <input type="radio" name="atencion_cliente" value="4"> 4
+            <input type="radio" name="atencion_cliente" value="5"> 5
+        </div>
+
+        <label for="calidad_producto">Calidad del Producto:</label>
+        <div class="rating-group" id="calidad_producto">
+            <input type="radio" name="calidad_producto" value="1" required> 1
+            <input type="radio" name="calidad_producto" value="2"> 2
+            <input type="radio" name="calidad_producto" value="3"> 3
+            <input type="radio" name="calidad_producto" value="4"> 4
+            <input type="radio" name="calidad_producto" value="5"> 5
+        </div>
+
+        <label for="tiempo_entrega">Tiempo de Entrega:</label>
+        <div class="rating-group" id="tiempo_entrega">
+            <input type="radio" name="tiempo_entrega" value="1" required> 1
+            <input type="radio" name="tiempo_entrega" value="2"> 2
+            <input type="radio" name="tiempo_entrega" value="3"> 3
+            <input type="radio" name="tiempo_entrega" value="4"> 4
+            <input type="radio" name="tiempo_entrega" value="5"> 5
+        </div>
+
+        <label for="precio_producto">Precio del Producto:</label>
+        <div class="rating-group" id="precio_producto">
+            <input type="radio" name="precio_producto" value="1" required> 1
+            <input type="radio" name="precio_producto" value="2"> 2
+            <input type="radio" name="precio_producto" value="3"> 3
+            <input type="radio" name="precio_producto" value="4"> 4
+            <input type="radio" name="precio_producto" value="5"> 5
+        </div>
+
+        <label for="satisfaccion_general">Satisfacción General:</label>
+        <div class="rating-group" id="satisfaccion_general">
+            <input type="radio" name="satisfaccion_general" value="1" required> 1
+            <input type="radio" name="satisfaccion_general" value="2"> 2
+            <input type="radio" name="satisfaccion_general" value="3"> 3
+            <input type="radio" name="satisfaccion_general" value="4"> 4
+            <input type="radio" name="satisfaccion_general" value="5"> 5
+        </div>
+        <input type="submit" value="Enviar Encuesta">
+    </form>
+    
+</body>
+</html>
