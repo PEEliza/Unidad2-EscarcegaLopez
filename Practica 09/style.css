@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1 {
+    
+    font-family: Arial, sans-serif;
+    color: #06126d;
+    text-align: center;
+    border-bottom: #06126d;
+}
+h2 {
+    font-family: Arial, sans-serif;
+    color: #771f9a;
+    margin: 20px;
+} 
+header{
+    padding:3rem;
+    padding: 3 rem 4rem;
+}
+.Ropa{
+    display: block;
+    border-bottom: 1px solid #06126d;
+}
+.Accesorios{
+    display: block;
+    border-bottom: 1px solid #06126d;
+}
+.Bandas{
+    display: block;
+    border-bottom: 1px solid #06126d;
+}
+a{
+    text-decoration: none;
+}
+nav{
+    border-bottom: 1px solid blueviolet;
+}
