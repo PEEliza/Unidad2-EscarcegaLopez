@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ruteando Store - Contacto</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        h1 {
+            color: #06126d;
+            text-align: center;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #06126d;
+        }
+        form {
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Contacto</h1>
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="productos.html">Productos</a>
+        <a href="nosotros.html">Sobre Nosotros</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>
+
+    <section>
+        <h2>Formulario de Contacto</h2>
+        <form action="enviar_formulario.php" method="POST">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+            <br><br>
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <nav>
+            <p>Tienda de rutas. &copy; 2024</p>
+        </nav>
+    </footer>
+</body>
+</html>
