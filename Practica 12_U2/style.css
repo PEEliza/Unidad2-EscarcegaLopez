@@ -1,0 +1,154 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+h1 {
+    border-bottom: 1px solid rgb(23, 2, 73);
+    font-family: Arial, sans-serif;
+    color: #06126d;
+    text-align: center;
+    border-bottom: #030b4c;
+}
+h2 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #350648;
+}
+h3{
+    font-family: Arial, sans-serif;
+    text-align: center;
+    color: #0c0221;
+    margin: 20px;
+} 
+header{
+    padding:3rem;
+    padding: 3 rem 4rem;
+}
+.Ropa{
+    display: grid;
+    justify-content: space-between;
+   
+}
+.Accesorios{
+    display: grid;
+    
+}
+.Bandas{
+    display: grid;
+    justify-content: space-between;
+  
+}
+.nav-link{
+    text-align: center;
+  padding: 10px;
+    text-decoration: none;
+}
+nav{
+    border-bottom: 1px solid rgb(23, 2, 73);
+}
+section{
+    display: flex;
+}
+.links{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* 4 columnas, una por cada link */
+  justify-content: center;
+}
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+footer {
+    background-color: #f4f4f4ce;
+    padding: 20px;
+    text-align: center;
+}
+.footer-columns {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 1000px;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 20px;
+}
+.footer-columns li {
+    flex: 1;
+    padding: 0 20px;
+    text-align: left;
+}
+.footer-columns a {
+    display: block;
+}
+footer p {
+    font-size: 14px;
+    color: #777;
+}
+.playera{
+    display: grid;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    place-items: center; 
+    border: 2px solid rgb(5, 5, 24);
+    background-color:rgb(240, 238, 255);  
+    gap: 1px;
+}
+.pantalon{
+    display: grid;
+    place-items: center;
+    grid-column: 3/4;
+    grid-row: 1/2;
+    border: 2px solid rgb(5, 5, 24);
+    background-color:rgb(240, 238, 255); 
+    gap: 5px;
+}
+.mascara {
+    display: grid;
+    place-items: center;
+    grid-column: 2/3;
+    grid-row: 2/3;
+    border: 2px solid rgb(5, 5, 24);
+    background-color: rgb(240, 238, 255);
+    gap: 5px;
+}
+
+.buff {
+    display: grid;
+    place-items: center;
+    grid-column: 1/2;
+    grid-row: 2/3;
+    border: 2px solid rgb(5, 5, 24);
+    background-color: rgb(240, 238, 255);
+    gap: 5px;
+}
+
+.tenis {
+    display: grid;
+    place-items: center;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    border: 2px solid rgb(5, 5, 24);
+    background-color: rgb(240, 238, 255);
+    gap: 5px;
+}
+
+
+.Eslinge{
+    display: grid;
+    place-items: center;
+    border: 2px solid rgb(5, 5, 24);
+    grid-column: 3/4;
+    grid-row: 1/2;
+    background-color:rgb(240, 238, 255); 
+    gap: 5px;
+}
+.Banda{
+    display: grid;
+    place-items: center;
+    border: 2px solid rgb(5, 5, 24);
+    grid-column: 1/3;
+    grid-row: 1/2;
+    background-color:rgb(240, 238, 255);    
+    gap: 5px;
+}
